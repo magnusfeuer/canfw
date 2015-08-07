@@ -10,7 +10,7 @@ Each rule has a numberic ID. Rules are executed in order of ascending IDs.
 
 Each rule has an Frame ID mask and a Frame ID filter, applied
 according to the standard CAN bus filter principle, as described 
-in: ```http://www.cse.dmu.ac.uk/~eg/tele/CanbusIDandMask.html```
+[here](http://www.cse.dmu.ac.uk/~eg/tele/CanbusIDandMask.html).
 
 Below is pseudo code for frame processing.
 
