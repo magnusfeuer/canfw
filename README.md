@@ -70,7 +70,7 @@ ID | IdMask     |   IdFilter | Action          | IdOperand  | DataOperand       
 * **RULE 2**<br>
 
   Rule ID 2 is evaluated for all frames not intercepted by Rule 1 above.
-  The rule will mask the incoming CAN frame ID against ```0xFFFFFF00```
+  The rule will mask the incoming CAN frame ID against ```0xFFFFFFF0```
   and filter the result against ```0x00000120```, intercepting all
   CAN frames between ```0x00000120``` and ```0x0000012F```.<br>
   For each frame intercetpted by rule 2, a fixed frame will be sent to the other side
@@ -88,5 +88,4 @@ ID | IdMask     |   IdFilter | Action          | IdOperand  | DataOperand       
 In case no rule intercepts the frame, it will be forwarded to the other side unmodified.
 
 
-
-
+CAN FRAME FORMAT 
